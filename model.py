@@ -29,7 +29,7 @@ LEFT_URL = 'https://api.iextrading.com/1.0/stock/'
 RIGHT_URL = '/chart'
 
 for i in range(1, 30):
-  company = table[1][i]
+  company = table['Symbol'][i]
   print(company)
   
   #finding prices
